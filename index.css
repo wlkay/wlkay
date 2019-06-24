@@ -1,0 +1,194 @@
+
+h1 {
+    font-size: 2.26667rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-family: "futura-pt", "Futura", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    text-rendering: optimizeLegibility;
+}
+
+.header-inner{
+    margin-top: 20%;
+}
+
+h2.section-header{
+    position: relative;
+    display: block;
+    padding-top: 8px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+h2.section-header:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    height: 3px;
+    width: 150px;
+    background-color: #222;
+}
+
+a{
+    color: #222 !important;
+    text-decoration: none !important;
+}
+
+
+a:hover{
+    text-decoration: none !important;
+    color: #222 !important;
+}
+
+.buffer4{
+    margin-top: 4%
+}
+  
+.buffer8{
+    margin-top: 8%
+}
+  
+.buffer16{
+    margin-top: 16%
+}
+
+.buffer24{
+    margin-top: 24%
+}
+
+.portfolio-bkgrnd{
+    height: 200px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.portfolio-bkgrnd:hover{
+ 
+}
+
+.portfolio-bkgrnd a {
+    margin-right: auto;
+    margin-left: 25%;
+}
+
+.portfolio a img{
+    max-width: 50%;
+    top: 50%;
+    overflow: auto;
+    display: inline-block;
+}
+
+
+.opolis{
+    background-image: url(assets/opolis-logo2.png)
+}
+
+.overlay{
+    background-image: url(assets/overlay/overlay-logo.png)
+}
+
+.moon{
+    background-image: url(assets/moon/shot1.png)
+}
+
+.lewitt{
+    background-image: url(assets/installations/DSC_0045.jpg)
+}
+
+.litho{
+    background-image: url(assets/illustrations/litho.jpg)
+}
+
+.studio5{
+    background-image: url(assets/studio5/nightclub.jpg)
+}
+
+.studio6{
+    background-image: url(assets/studio6/ground.jpg)
+}
+
+.aboutme{
+    background-image: url(assets/img3.jpg);
+    background-position-y: -100px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    height: 100px;
+    position: relative;
+    width: 100%;
+    background-color: #f1f2f3;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 400px;
+}
+
+.button_outboard{
+    border-radius: 100px;
+    height: 48px;
+    width: auto;
+    padding: 0px 16px 0px 16px;
+    border-color: cornflowerblue;
+    border-width: 2px;
+}
+
+.right_button{
+    float: right;
+}
+
+.button_outboard:hover{
+    background-color: cornflowerblue;
+
+}
+
+/*  PAGES  */
+
+.header-pages{
+    position: top;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.banner-pages{
+    background-color: #222;
+    color: whitesmoke;
+    text-align: center;
+    height: 300px;
+}
+
+.banner-pages{
+    color: whitesmoke;
+}
+
+.banner-pages .col-sm-6{
+    padding-top: 7%;
+}
+
+.pages-bkgrnd{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: -webkit-fill-available;
+}
+
+.proj_desc{
+    font-size: 18px;
+}
+
+/*  opolis  */
+
+
