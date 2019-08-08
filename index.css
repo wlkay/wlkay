@@ -89,13 +89,16 @@ a:hover{
     display: inline-block;
 }
 
+.deo{
+    background-image: url(assets/opolis/mockup2.png)
+}
 
 .opolis{
-    background-image: url(assets/img3.jpg)
+    background-image: url(assets/opolis/Mobile-Docs.png)
 }
 
 .overlay{
-    background-image: url(assets/img3.jpg)
+    background-image: url(assets/overlay/oc_half.png)
 }
 
 .moon{
